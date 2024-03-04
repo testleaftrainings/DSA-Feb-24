@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dsa-journey.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_01_ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_02_FirstDuplicateValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_03_ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_04_TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_05_FirstMissingPositiveInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_06_GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_07_ArrayOfProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_08_ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_09_EncodeAndDecodeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_10_LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/homeworks/P_11_TournamentWinner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2dE0h9BW7oHHbBDyVKEp3JpmMYU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.P_07_ArrayOfProducts.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Repo/MyOwnRepo/dsa-journey/src/com/dsa/problems/arraysandhashing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\arraysandhashing" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dsa.problems.arraysandhashing.homeworks" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="P_07_ArrayOfProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.arraysandhashing.classworks.P_07_ArrayOfProducts" />
+      <module name="dsa-journey" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.problems.arraysandhashing.classworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.P_07_ArrayOfProducts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="" />
+      <created>1709558048946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709558048946</updated>
+    </task>
+    <servers />
+  </component>
+</project>

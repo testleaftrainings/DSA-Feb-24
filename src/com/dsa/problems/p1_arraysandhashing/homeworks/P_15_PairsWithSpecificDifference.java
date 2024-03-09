@@ -1,9 +1,4 @@
-package com.dsa.problems.arraysandhashing.homeworks;
-
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+package com.dsa.problems.p1_arraysandhashing.homeworks;
 
 public class P_15_PairsWithSpecificDifference {
 

@@ -1,4 +1,4 @@
-package com.dsa.problems.arraysandhashing.classworks;
+package com.dsa.problems.p1_arraysandhashing.classworks;
 
 import java.util.Arrays;
 

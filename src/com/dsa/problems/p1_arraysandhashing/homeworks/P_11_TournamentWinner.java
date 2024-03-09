@@ -1,4 +1,4 @@
-package com.dsa.problems.arraysandhashing.homeworks;
+package com.dsa.problems.p1_arraysandhashing.homeworks;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_16_NonConstructibleChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_17_SpiralTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_18_LongestPeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_19_LargestRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_20_ZeroSumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_21_SunsetViews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_22_MinRewards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_23_LEARN_ComparableComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_23_LargestNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_24_WordCountEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_01_ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_01_ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_02_FirstDuplicateValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_02_FirstDuplicateValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_03_ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_03_ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_04_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_04_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_05_FirstMissingPositiveInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_05_FirstMissingPositiveInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_06_GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_06_GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_07_ArrayOfProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_07_ArrayOfProducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_08_ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_08_ValidSudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_09_EncodeAndDecodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_09_EncodeAndDecodeStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/classworks/P_10_LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_10_LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/homeworks/P_11_TournamentWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_11_TournamentWinner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/homeworks/P_12_MonotonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_12_MonotonicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/homeworks/P_13_SetMatrixZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_13_SetMatrixZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/homeworks/P_14_PickFromBothTheSides.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_14_PickFromBothTheSides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/arraysandhashing/homeworks/P_15_PairsWithSpecificDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_15_PairsWithSpecificDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +37,10 @@
     "Application.P_18_LongestPeak.executor": "Run",
     "Application.P_19_LargestRange.executor": "Run",
     "Application.P_20_ZeroSumSubarray.executor": "Run",
+    "Application.P_21_SunsetViews.executor": "Run",
+    "Application.P_22_MinRewards.executor": "Run",
+    "Application.P_23_LargestNumberInArray.executor": "Run",
+    "Application.P_24_WordCountEngine.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,59 +58,7 @@
       <recent name="com.dsa.problems.arraysandhashing.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_20_ZeroSumSubarray">
-    <configuration name="P_16_NonConstructibleChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_16_NonConstructibleChange" />
-      <module name="dsa-journey" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P_17_SpiralTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_17_SpiralTraverse" />
-      <module name="dsa-journey" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P_18_LongestPeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_18_LongestPeak" />
-      <module name="dsa-journey" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P_19_LargestRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_19_LargestRange" />
-      <module name="dsa-journey" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P_24_WordCountEngine">
     <configuration name="P_20_ZeroSumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_20_ZeroSumSubarray" />
       <module name="dsa-journey" />
@@ -136,13 +72,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P_21_SunsetViews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_21_SunsetViews" />
+      <module name="dsa-journey" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P_22_MinRewards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_22_MinRewards" />
+      <module name="dsa-journey" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P_23_LargestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_23_LargestNumberInArray" />
+      <module name="dsa-journey" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P_24_WordCountEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_24_WordCountEngine" />
+      <module name="dsa-journey" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P_24_WordCountEngine" />
+        <item itemvalue="Application.P_23_LargestNumberInArray" />
+        <item itemvalue="Application.P_22_MinRewards" />
+        <item itemvalue="Application.P_21_SunsetViews" />
         <item itemvalue="Application.P_20_ZeroSumSubarray" />
-        <item itemvalue="Application.P_19_LargestRange" />
-        <item itemvalue="Application.P_18_LongestPeak" />
-        <item itemvalue="Application.P_17_SpiralTraverse" />
-        <item itemvalue="Application.P_16_NonConstructibleChange" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +164,11 @@
           <url>file://$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_18_LongestPeak.java</url>
           <line>49</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_21_SunsetViews.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

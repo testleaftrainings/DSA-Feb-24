@@ -1,8 +1,6 @@
 package com.dsa.problems.p1_arraysandhashing.homeworks;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class P_11_TournamentWinner {
 
@@ -54,9 +52,35 @@ public class P_11_TournamentWinner {
 
 
 
+    // O(n)T where n is the no of competitions or results
+    // O(K)S is no of teams
+
     public static String tournamentWinner(List<List<String>> competitions, List<Integer> results) {
-        // Write your code here
-        return "";
+        // tracker for score
+        Map<String, Integer> scores = new HashMap<>(); // --> O(K)S
+
+        int maxScore = Integer.MIN_VALUE; // CT for maxscore
+        String tourWinner = ""; // CT for tournament winner
+
+        // loop though the competition list. size of competition and results will be same
+        for (int i = 0; i < competitions.size(); i++) { // --> O(n)T
+
+            // derive both the teams
+            String homeTeam = competitions.get(i).get(0);
+            String awayTeam = competitions.get(i).get(1);
+
+            String winner = results.get(i) == 1 ? homeTeam : awayTeam;
+            int newScore = scores.getOrDefault(winner, 0) + 3; // derive the updated score for the won team
+            scores.put(winner, newScore); // update the score
+
+            // continuous tracking for both maxScore & winner
+            if(newScore > maxScore) {
+                maxScore = newScore;
+                tourWinner = winner;
+            }
+        }
+
+        return tourWinner;
     }
 
 

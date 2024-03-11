@@ -1,9 +1,6 @@
 package com.dsa.problems.p1_arraysandhashing.homeworks;
 
-import java.util.HashSet;
-import java.util.Set;
-
-public class P_16_KSumSubarray {
+public class P_25_KSumSubarray {
 
     // MEDIUM
     /********************************************************************************************************************

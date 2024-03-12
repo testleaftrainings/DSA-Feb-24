@@ -45,8 +45,34 @@ public class P_14_PickFromBothTheSides {
 
      *******************************************************************************************************************/
 
+    // O(B)T where B is the total no of elements you can use for summing
+    // O(1)S
+
     public int solve(int[] A, int B) {
-        return 0;
+        int n = A.length;
+        int result = 0;
+
+        // initially calculate the result by considering the first B elements of the array A
+        // Loop for B counts
+        // Note: You have to do this in a separate for loop - only then you can one by one remove elements(from left) and add(from right) in the next for loop
+        for (int i = 0; i < B; i++) { // --> O(B)T
+            result += A[i];
+        }
+
+        // take backup as sum - which will keep changing from now
+        // result will be used for CT
+        int sum = result;
+
+        // Loop for B counts
+        for (int i = 0; i < B; i++) { // --> O(B)T
+            sum -= A[(B - 1) - i]; // Subtract the element added from the front(starts from right corner)
+            sum += A[(n - 1) - i]; // Add the element from the back(starts from right corner)
+
+            // CT
+            result = Math.max(result, sum);
+        }
+
+        return result;
     }
 
 }

@@ -5,55 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_21_SunsetViews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_22_MinRewards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_23_LEARN_ComparableComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_23_LargestNumberInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/classworks/P_24_WordCountEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_26_FindDifferenceOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_27_GroupPeopleByGroupSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_12_MonotonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_12_MonotonicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_13_SetMatrixZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_13_SetMatrixZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_14_PickFromBothTheSides.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_14_PickFromBothTheSides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_15_PairsWithSpecificDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_15_PairsWithSpecificDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2dE0h9BW7oHHbBDyVKEp3JpmMYU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.P_07_ArrayOfProducts.executor": "Run",
-    "Application.P_16_NonConstructibleChange.executor": "Debug",
-    "Application.P_17_SpiralTraverse.executor": "Run",
-    "Application.P_18_LongestPeak.executor": "Run",
-    "Application.P_19_LargestRange.executor": "Run",
-    "Application.P_20_ZeroSumSubarray.executor": "Run",
-    "Application.P_21_SunsetViews.executor": "Run",
-    "Application.P_22_MinRewards.executor": "Run",
-    "Application.P_23_LargestNumberInArray.executor": "Run",
-    "Application.P_24_WordCountEngine.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Repo/MyOwnRepo/dsa-journey/src/com/dsa/problems/arraysandhashing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.P_07_ArrayOfProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_16_NonConstructibleChange.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P_17_SpiralTraverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_18_LongestPeak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_19_LargestRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_20_ZeroSumSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_21_SunsetViews.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_22_MinRewards.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_23_LargestNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_24_WordCountEngine.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repo/MyOwnRepo/dsa-journey/src/com/dsa/problems/arraysandhashing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\arraysandhashing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dsa.problems.p1_arraysandhashing.homeworks" />
       <recent name="com.dsa.problems.p1_arraysandhashing.classworks" />
       <recent name="com.dsa.problems.arraysandhashing.homeworks" />
     </key>

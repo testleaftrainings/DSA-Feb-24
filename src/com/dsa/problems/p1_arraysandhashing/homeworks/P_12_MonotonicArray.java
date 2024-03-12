@@ -27,8 +27,28 @@ public class P_12_MonotonicArray {
 
 
 
+    // O(n)T
+    // O(1)S
+
     public static boolean isMonotonic(int[] array) {
-       return false;
+        // monotonic = either NonIncreasing or NonDecreasing
+        return isNonDecreasing(array) || isNonIncreasing(array);
+    }
+
+    private static boolean isNonDecreasing(int[] array) {
+
+        for (int i = 1; i < array.length; i++) { // --> O(n)T
+            if(array[i-1] > array[i]) return false;
+        }
+        return true;
+    }
+
+    private static boolean isNonIncreasing(int[] array) {
+
+        for (int i = 1; i < array.length; i++) { // --> O(n)T
+            if(array[i-1] < array[i]) return false;
+        }
+        return true;
     }
 
     public static void main(String[] args) {

@@ -53,8 +53,6 @@ public class P_14_PickFromBothTheSides {
         int result = 0;
 
         // initially calculate the result by considering the first B elements of the array A
-        // Loop for B counts
-        // Note: You have to do this in a separate for loop - only then you can one by one remove elements(from left) and add(from right) in the next for loop
         for (int i = 0; i < B; i++) { // --> O(B)T
             result += A[i];
         }

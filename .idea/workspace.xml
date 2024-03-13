@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_26_FindDifferenceOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_27_GroupPeopleByGroupSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_28_KeyboardRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_12_MonotonicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_12_MonotonicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_13_SetMatrixZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_13_SetMatrixZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_14_PickFromBothTheSides.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_14_PickFromBothTheSides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_15_PairsWithSpecificDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_15_PairsWithSpecificDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

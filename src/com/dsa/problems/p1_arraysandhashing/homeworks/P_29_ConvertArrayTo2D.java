@@ -42,6 +42,6 @@ public class P_29_ConvertArrayTo2D {
 
 
     public List<List<Integer>> findMatrix(int[] nums) {
-        new ArrayList<>();
+        return new ArrayList<>();
     }
 }

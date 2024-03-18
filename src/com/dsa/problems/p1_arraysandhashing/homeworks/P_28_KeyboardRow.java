@@ -39,8 +39,50 @@ public class P_28_KeyboardRow {
 
      *******************************************************************************************************************/
 
+    //  O(n*m)T, where n is the number of words and m is the maximum length of a word.
+    //  O(1)S (excluding the space used for input and output)
 
     public String[] findWords(String[] words) {
-        return new String[]{};
+        // Define keyboard rows including both cases
+        String row1 = "qwertyuiopQWERTYUIOP";
+        String row2 = "asdfghjklASDFGHJKL";
+        String row3 = "zxcvbnmZXCVBNM";
+
+        List<String> result = new ArrayList<>();
+
+        for (String word : words) {
+            // Variables to track if word can be typed in each row
+            boolean inRow1 = true;
+            boolean inRow2 = true;
+            boolean inRow3 = true;
+
+            // Iterate through each character of the word
+            for (int i = 0; i < word.length(); i++) {
+                char c = word.charAt(i);
+
+                // Check if character is in row 1
+                if (!row1.contains(String.valueOf(c))) {
+                    inRow1 = false;
+                }
+
+                // Check if character is in row 2
+                if (!row2.contains(String.valueOf(c))) {
+                    inRow2 = false;
+                }
+
+                // Check if character is in row 3
+                if (!row3.contains(String.valueOf(c))) {
+                    inRow3 = false;
+                }
+            }
+
+            // Add word to result if it can be typed in any row
+            if (inRow1 || inRow2 || inRow3) {
+                result.add(word);
+            }
+        }
+
+        // Convert result list to array
+        return result.toArray(new String[0]);
     }
 }

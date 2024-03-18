@@ -1,7 +1,9 @@
 package com.dsa.problems.p1_arraysandhashing.homeworks;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class P_26_FindDifferenceOfTwoArrays {
 
@@ -36,7 +38,41 @@ public class P_26_FindDifferenceOfTwoArrays {
      *******************************************************************************************************************/
 
 
+    // O(n)T
+    // O(n)S
+    // where n is the length of the longest array between nums1 &nums2
     public static List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
-        return new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
+
+        Set<Integer> bag1 = new HashSet<>();
+        Set<Integer> bag2 = new HashSet<>();
+
+        for (int num : nums1) {
+            bag1.add(num);
+        }
+
+        for (int num : nums2) {
+            bag2.add(num);
+        }
+
+        // List to store distinct integers in nums1 but not in nums2
+        List<Integer> diff1 = new ArrayList<>();
+        for (int num : nums1) {
+            if (!bag2.contains(num)) {
+                diff1.add(num);
+            }
+        }
+        result.add(diff1);
+
+        // List to store distinct integers in nums2 but not in nums1
+        List<Integer> diff2 = new ArrayList<>();
+        for (int num : nums2) {
+            if (!bag1.contains(num)) {
+                diff2.add(num);
+            }
+        }
+        result.add(diff2);
+
+        return result;
     }
 }

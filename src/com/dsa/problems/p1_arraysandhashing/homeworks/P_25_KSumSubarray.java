@@ -1,5 +1,8 @@
 package com.dsa.problems.p1_arraysandhashing.homeworks;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class P_25_KSumSubarray {
 
     // MEDIUM
@@ -21,8 +24,20 @@ public class P_25_KSumSubarray {
 
      *******************************************************************************************************************/
 
+    // O(n)T
+    // O(n)S
 
-    public boolean zeroSumSubarray(int[] nums, int k) {
+    public boolean kSumSubarray(int[] nums, int k) {
+        int runningPrefixSum = 0;
+        Set<Integer> seenPrefixSum = new HashSet<>(); // --> O(n)S
+        seenPrefixSum.add(0); //
+
+        for(int num : nums) { // --> O(n)T
+            runningPrefixSum += num;
+            if(seenPrefixSum.contains(runningPrefixSum - k)) return true;
+            else seenPrefixSum.add(runningPrefixSum);
+        }
+
         return false;
     }
 

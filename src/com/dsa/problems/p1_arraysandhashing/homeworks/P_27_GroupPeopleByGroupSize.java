@@ -1,7 +1,9 @@
 package com.dsa.problems.p1_arraysandhashing.homeworks;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class P_27_GroupPeopleByGroupSize {
 
@@ -36,7 +38,26 @@ public class P_27_GroupPeopleByGroupSize {
      *******************************************************************************************************************/
 
 
+    // O(n)T
+    // O(n)S
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
-        return new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>(); // O(n)S
+        // Map to store groups based on their sizes
+        Map<Integer, List<Integer>> groupsMap = new HashMap<>(); // O(n)S
+
+        for (int personId = 0; personId < groupSizes.length; personId++) { // O(n)T
+            int groupSize = groupSizes[personId];
+            if (!groupsMap.containsKey(groupSize)) {
+                groupsMap.put(groupSize, new ArrayList<>());
+            }
+            groupsMap.get(groupSize).add(personId);
+
+            if (groupsMap.get(groupSize).size() == groupSize) {
+                result.add(new ArrayList<>(groupsMap.get(groupSize))); // Add completed group to result
+                groupsMap.put(groupSize, new ArrayList<>()); // Reset the group
+            }
+        }
+
+        return result;
     }
 }

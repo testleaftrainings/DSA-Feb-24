@@ -1,7 +1,9 @@
 package com.dsa.problems.p1_arraysandhashing.homeworks;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class P_29_ConvertArrayTo2D {
 
@@ -40,8 +42,35 @@ public class P_29_ConvertArrayTo2D {
 
      *******************************************************************************************************************/
 
+    // O(n*m)T
+    // O(n)S
 
     public List<List<Integer>> findMatrix(int[] nums) {
-        return new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
+        Map<Integer, List<Integer>> numMap = new HashMap<>();
+        int rowsRequired = 0;
+
+        // Group numbers by their value
+        for (int num : nums) {
+            if (!numMap.containsKey(num)) {
+                numMap.put(num, new ArrayList<>());
+            }
+            numMap.get(num).add(num);
+            rowsRequired = Math.max(rowsRequired, numMap.get(num).size());
+        }
+
+
+        // Construct the matrix
+        for (int i = 0; i < rowsRequired; i++) {
+            List<Integer> row = new ArrayList<>();
+            for (List<Integer> list : numMap.values()) {
+                if (list.size() > i) {
+                    row.add(list.get(i));
+                }
+            }
+            result.add(row);
+        }
+
+        return result;
     }
 }

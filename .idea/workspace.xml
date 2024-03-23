@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_40_ValidatePalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_41_SmallestDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_42_ValidateSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_43_ChipsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_44_ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_44_MoveElementToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_45_Celebrity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_46_MinimumWindowSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_47_FlipImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_25_KSumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_25_KSumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_26_FindDifferenceOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_26_FindDifferenceOfTwoArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_27_GroupPeopleByGroupSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_27_GroupPeopleByGroupSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_28_KeyboardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_28_KeyboardRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_29_ConvertArrayTo2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_29_ConvertArrayTo2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +56,7 @@
     "Application.P_34_UniqueTripletSumToZero.executor": "Run",
     "Application.P_36_TripletsCountWithSmallerSum.executor": "Run",
     "Application.P_37_SubarraysWithProductLessThanTarget.executor": "Run",
+    "Application.P_44_MoveElementToEnd.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -73,27 +70,14 @@
       <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\arraysandhashing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dsa.problems.p2_twopointers.homeworks" />
       <recent name="com.dsa.problems.p2_twopointers.classworks" />
+      <recent name="com.dsa.problems.p2_twopointers.homeworks" />
       <recent name="com.dsa.problems.p1_arraysandhashing.homeworks" />
       <recent name="com.dsa.problems.p1_arraysandhashing.classworks" />
       <recent name="com.dsa.problems.arraysandhashing.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_37_SubarraysWithProductLessThanTarget">
-    <configuration name="P_32_SquaringSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_32_SquaringSortedArray" />
-      <module name="dsa-journey" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p2_twopointers.classworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P_44_MoveElementToEnd">
     <configuration name="P_33_ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_33_ThreeSum" />
       <module name="dsa-journey" />
@@ -146,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P_44_MoveElementToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_44_MoveElementToEnd" />
+      <module name="dsa-journey" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.problems.p2_twopointers.classworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P_44_MoveElementToEnd" />
         <item itemvalue="Application.P_37_SubarraysWithProductLessThanTarget" />
         <item itemvalue="Application.P_36_TripletsCountWithSmallerSum" />
         <item itemvalue="Application.P_34_UniqueTripletSumToZero" />
         <item itemvalue="Application.P_33_ThreeSum" />
-        <item itemvalue="Application.P_32_SquaringSortedArray" />
       </list>
     </recent_temporary>
   </component>

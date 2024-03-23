@@ -43,18 +43,18 @@ public class P_27_GroupPeopleByGroupSize {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         List<List<Integer>> result = new ArrayList<>(); // O(n)S
         // Map to store groups based on their sizes
-        Map<Integer, List<Integer>> groupsMap = new HashMap<>(); // O(n)S
+        Map<Integer, List<Integer>> groupsSizePersonIdMap = new HashMap<>(); // O(n)S
 
         for (int personId = 0; personId < groupSizes.length; personId++) { // O(n)T
             int groupSize = groupSizes[personId];
-            if (!groupsMap.containsKey(groupSize)) {
-                groupsMap.put(groupSize, new ArrayList<>());
+            if (!groupsSizePersonIdMap.containsKey(groupSize)) {
+                groupsSizePersonIdMap.put(groupSize, new ArrayList<>());
             }
-            groupsMap.get(groupSize).add(personId);
+            groupsSizePersonIdMap.get(groupSize).add(personId);
 
-            if (groupsMap.get(groupSize).size() == groupSize) {
-                result.add(new ArrayList<>(groupsMap.get(groupSize))); // Add completed group to result
-                groupsMap.put(groupSize, new ArrayList<>()); // Reset the group
+            if (groupsSizePersonIdMap.get(groupSize).size() == groupSize) {
+                result.add(new ArrayList<>(groupsSizePersonIdMap.get(groupSize))); // Add completed group to result
+                groupsSizePersonIdMap.put(groupSize, new ArrayList<>()); // Reset the group
             }
         }
 

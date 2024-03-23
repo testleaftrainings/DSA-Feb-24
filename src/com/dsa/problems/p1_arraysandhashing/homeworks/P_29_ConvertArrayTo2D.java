@@ -47,23 +47,23 @@ public class P_29_ConvertArrayTo2D {
 
     public List<List<Integer>> findMatrix(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        Map<Integer, List<Integer>> numMap = new HashMap<>();
+        Map<Integer, List<Integer>> numNumsMap = new HashMap<>();
         int rowsRequired = 0;
 
         // Group numbers by their value
         for (int num : nums) {
-            if (!numMap.containsKey(num)) {
-                numMap.put(num, new ArrayList<>());
+            if (!numNumsMap.containsKey(num)) {
+                numNumsMap.put(num, new ArrayList<>());
             }
-            numMap.get(num).add(num);
-            rowsRequired = Math.max(rowsRequired, numMap.get(num).size());
+            numNumsMap.get(num).add(num);
+            rowsRequired = Math.max(rowsRequired, numNumsMap.get(num).size());
         }
 
 
         // Construct the matrix
         for (int i = 0; i < rowsRequired; i++) {
             List<Integer> row = new ArrayList<>();
-            for (List<Integer> list : numMap.values()) {
+            for (List<Integer> list : numNumsMap.values()) {
                 if (list.size() > i) {
                     row.add(list.get(i));
                 }

@@ -30,9 +30,34 @@ public class P_44_ContainerWithMostWater {
 
 
 
+    // O(n)T
+    // O(1)S
 
     public int maxContainer(int[] height) {
-        return 0;
+        int left = 0;
+        int right = height.length - 1;
+
+        // CT
+        int maxArea = Integer.MIN_VALUE;
+
+        // Move pointers
+        while(left < right) { // ---> O(n)T
+            int length = Math.min(height[left], height[right]);
+            int breadth = right-left;
+            int area = length * breadth;
+
+            // CT
+            maxArea = Math.max(maxArea, area);
+
+            // Move pointer of the shorter line in the HOPE of increasing the area
+            if(height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return maxArea;
     }
 
 

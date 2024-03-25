@@ -29,8 +29,42 @@ public class P_40_ValidatePalindrome {
 
      *******************************************************************************************************************/
 
+    // O(n)T
+    // O(1)S
 
     public boolean isPalindrome(String s) {
+        int left = 0;
+        int right = s.length()-1;
+
+        while(left < right) { // ---> O(n)T
+
+            char lc = s.charAt(left);
+            char rc = s.charAt(right);
+
+            // Skip left, if it is non-alphanumeric
+            if(!Character.isLetterOrDigit(lc)) {
+                left++;
+                continue;
+            }
+
+            // Skip right, if it is non-alphanumeric
+            if(!Character.isLetterOrDigit(rc)){
+                right--;
+                continue;
+            }
+
+            // convert to lowercase before comparing
+            lc = Character.toLowerCase(lc);
+            rc = Character.toLowerCase(rc);
+
+            if(lc != rc) {
+                return false;
+            }
+
+            left++;
+            right--;
+        }
+
         return true;
     }
 

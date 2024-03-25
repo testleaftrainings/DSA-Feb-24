@@ -25,9 +25,17 @@ public class P_42_ValidateSubsequence {
 
      *******************************************************************************************************************/
 
+    // O(n)T
+    // O(1)S
 
     public static boolean validateSubSequence(int[] array, int[] sequence) {
-        return true;
+        int j = 0;
+
+        for (int i = 0; i < array.length && j < sequence.length; i++) { // ---> O(n)T
+            if(array[i] == sequence[j]) j++; // only if there is a match, move forward in the sequence
+        }
+
+        return (j == sequence.length);
     }
 
 

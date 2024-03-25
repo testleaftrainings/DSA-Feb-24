@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_44_MoveElementToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_45_Celebrity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_46_MinimumWindowSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/classworks/P_47_FlipImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_100_BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_49_AverageOfSubarrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_50_FindMaxSumSubArrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_51_SmallestSubArrayWithGreaterSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_52_LongestSubstrWithMaxKDistinctChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_53_FruitsIntoBaskets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_54_LongestSubstringWithDistinctChars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_27_GroupPeopleByGroupSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_27_GroupPeopleByGroupSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_29_ConvertArrayTo2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p1_arraysandhashing/homeworks/P_29_ConvertArrayTo2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_40_ValidatePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_40_ValidatePalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_41_SmallestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_41_SmallestDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_42_ValidateSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_42_ValidateSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_43_ChipsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p2_twopointers/homeworks/P_43_ChipsFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,53 +42,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.P_07_ArrayOfProducts.executor": "Run",
-    "Application.P_16_NonConstructibleChange.executor": "Debug",
-    "Application.P_17_SpiralTraverse.executor": "Run",
-    "Application.P_18_LongestPeak.executor": "Run",
-    "Application.P_19_LargestRange.executor": "Run",
-    "Application.P_20_ZeroSumSubarray.executor": "Run",
-    "Application.P_21_SunsetViews.executor": "Run",
-    "Application.P_22_MinRewards.executor": "Run",
-    "Application.P_23_LargestNumberInArray.executor": "Run",
-    "Application.P_24_WordCountEngine.executor": "Run",
-    "Application.P_30_TwoSum.executor": "Run",
-    "Application.P_31_RemoveDuplicates.executor": "Debug",
-    "Application.P_32_SquaringSortedArray.executor": "Run",
-    "Application.P_33_ThreeSum.executor": "Debug",
-    "Application.P_34_UniqueTripletSumToZero.executor": "Run",
-    "Application.P_36_TripletsCountWithSmallerSum.executor": "Run",
-    "Application.P_37_SubarraysWithProductLessThanTarget.executor": "Run",
-    "Application.P_44_MoveElementToEnd.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Repo/MyOwnRepo/dsa-journey/src/com/dsa/problems/arraysandhashing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.P_07_ArrayOfProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_16_NonConstructibleChange.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P_17_SpiralTraverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_18_LongestPeak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_19_LargestRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_20_ZeroSumSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_21_SunsetViews.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_22_MinRewards.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_23_LargestNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_24_WordCountEngine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_30_TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_31_RemoveDuplicates.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P_32_SquaringSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_33_ThreeSum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.P_34_UniqueTripletSumToZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_36_TripletsCountWithSmallerSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_37_SubarraysWithProductLessThanTarget.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_44_MoveElementToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_49_AverageOfSubarrayOfSizeK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_50_FindMaxSumSubArrayOfSizeK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_51_SmallestSubArrayWithGreaterSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_52_LongestSubstrWithMaxKDistinctChars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_53_FruitsIntoBaskets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.P_54_LongestSubstringWithDistinctChars.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repo/MyOwnRepo/dsa-journey/src/com/dsa/problems/p3_slidingwindow/classworks&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\p3_slidingwindow\classworks" />
+      <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\p3_slidingwindow" />
       <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\arraysandhashing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dsa.problems.p3_slidingwindow.classworks" />
+      <recent name="com.dsa.problems.p3_slidingwindow" />
       <recent name="com.dsa.problems.p2_twopointers.classworks" />
       <recent name="com.dsa.problems.p2_twopointers.homeworks" />
       <recent name="com.dsa.problems.p1_arraysandhashing.homeworks" />
-      <recent name="com.dsa.problems.p1_arraysandhashing.classworks" />
-      <recent name="com.dsa.problems.arraysandhashing.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_44_MoveElementToEnd">
-    <configuration name="P_33_ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_33_ThreeSum" />
+  <component name="RunManager" selected="Application.P_54_LongestSubstringWithDistinctChars">
+    <configuration name="P_50_FindMaxSumSubArrayOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p3_slidingwindow.classworks.P_50_FindMaxSumSubArrayOfSizeK" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p2_twopointers.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p3_slidingwindow.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_34_UniqueTripletSumToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_34_UniqueTripletSumToZero" />
+    <configuration name="P_51_SmallestSubArrayWithGreaterSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p3_slidingwindow.classworks.P_51_SmallestSubArrayWithGreaterSum" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p2_twopointers.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p3_slidingwindow.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_36_TripletsCountWithSmallerSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_36_TripletsCountWithSmallerSum" />
+    <configuration name="P_52_LongestSubstrWithMaxKDistinctChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p3_slidingwindow.classworks.P_52_LongestSubstrWithMaxKDistinctChars" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p2_twopointers.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p3_slidingwindow.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_37_SubarraysWithProductLessThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_37_SubarraysWithProductLessThanTarget" />
+    <configuration name="P_53_FruitsIntoBaskets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p3_slidingwindow.classworks.P_53_FruitsIntoBaskets" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p2_twopointers.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p3_slidingwindow.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_44_MoveElementToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p2_twopointers.classworks.P_44_MoveElementToEnd" />
+    <configuration name="P_54_LongestSubstringWithDistinctChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p3_slidingwindow.classworks.P_54_LongestSubstringWithDistinctChars" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p2_twopointers.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p3_slidingwindow.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P_44_MoveElementToEnd" />
-        <item itemvalue="Application.P_37_SubarraysWithProductLessThanTarget" />
-        <item itemvalue="Application.P_36_TripletsCountWithSmallerSum" />
-        <item itemvalue="Application.P_34_UniqueTripletSumToZero" />
-        <item itemvalue="Application.P_33_ThreeSum" />
+        <item itemvalue="Application.P_54_LongestSubstringWithDistinctChars" />
+        <item itemvalue="Application.P_53_FruitsIntoBaskets" />
+        <item itemvalue="Application.P_52_LongestSubstrWithMaxKDistinctChars" />
+        <item itemvalue="Application.P_51_SmallestSubArrayWithGreaterSum" />
+        <item itemvalue="Application.P_50_FindMaxSumSubArrayOfSizeK" />
       </list>
     </recent_temporary>
   </component>

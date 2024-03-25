@@ -31,8 +31,29 @@ public class P_43_ChipsFactory {
 
      *******************************************************************************************************************/
 
+    // O(n)T
+    // O(1)S
     public int[] solve(int[] A) {
-        return new int[]{};
+        int write = 0;
+        int read = 0;
+
+        while(read < A.length) { // --. O(n)T
+
+            if(A[read] != 0) {
+                swap(A, read, write);
+                write++;
+            }
+
+            read++;
+        }
+
+        return A;
+    }
+
+    private void swap(int[] A, int i, int j) {
+        int tmp = A[i];
+        A[i] = A[j];
+        A[j] = tmp;
     }
 
 

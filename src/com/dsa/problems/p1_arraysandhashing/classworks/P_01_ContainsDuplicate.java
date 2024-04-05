@@ -86,6 +86,7 @@ public class P_01_ContainsDuplicate {
 
     public static void main(String[] args) {
         System.out.println(containsDuplicate_bestSpace(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9,10}));
+        // test comment
     }
 
 }

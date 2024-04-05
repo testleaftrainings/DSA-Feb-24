@@ -90,13 +90,13 @@
       <recent name="com.dsa.problems.p1_arraysandhashing.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_54_LongestSubstringWithDistinctChars">
-    <configuration name="P_50_FindMaxSumSubArrayOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p3_slidingwindow.classworks.P_50_FindMaxSumSubArrayOfSizeK" />
+  <component name="RunManager" selected="Application.P_01_ContainsDuplicate">
+    <configuration name="P_01_ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p1_arraysandhashing.classworks.P_01_ContainsDuplicate" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p3_slidingwindow.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p1_arraysandhashing.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P_01_ContainsDuplicate" />
         <item itemvalue="Application.P_54_LongestSubstringWithDistinctChars" />
         <item itemvalue="Application.P_53_FruitsIntoBaskets" />
         <item itemvalue="Application.P_52_LongestSubstrWithMaxKDistinctChars" />
         <item itemvalue="Application.P_51_SmallestSubArrayWithGreaterSum" />
-        <item itemvalue="Application.P_50_FindMaxSumSubArrayOfSizeK" />
       </list>
     </recent_temporary>
   </component>

@@ -26,8 +26,29 @@ public class P_67_BestTimeToBuyAndSellStock {
 
 
 
+    // O(n)T
+    // O(1)S
+
     public int maxProfit(int[] prices) {
-        return 0;
+        // ER
+        if (prices.length == 0) {
+            return 0 ;
+        }
+
+        int windowStart = 0; // CT
+        int maxProfit = Integer.MIN_VALUE; // CT
+
+        for (int windowEnd = 0; windowEnd < prices.length; windowEnd++) { // --> O(n)T
+
+            if (prices[windowEnd] < prices[windowStart]) { // looking for a better buying point
+                windowStart = windowEnd;
+            } else { // Calculate profit & CT
+                int profit = prices[windowEnd] - prices[windowStart];
+                maxProfit = Math.max(profit, maxProfit);
+            }
+        }
+
+        return maxProfit;
     }
 
 }

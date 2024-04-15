@@ -27,7 +27,37 @@ public class P_70_FindAllDuplicateNumbers {
 
 
     public static List<Integer> findNumbers(int[] nums) {
-        return new ArrayList<>();
+        // ---> O(n)S
+        List<Integer> duplicateNumbers = new ArrayList<>();
+
+        int i = 0;
+
+        while (i < nums.length) { // ---> O(n)T
+
+            int currNum = nums[i];
+            int targetIdx = currNum - 1;
+
+            if (nums[targetIdx] == currNum) i++;
+            else swap(nums, i, targetIdx);
+        }
+
+        // find all the duplicate numbers
+        for (int j = 0; j < nums.length; j++) { // ---> O(n)T
+            int currNum = nums[j];
+            int expectedNum = j+1;
+
+            if(expectedNum != currNum)  {
+                duplicateNumbers.add(currNum);
+            }
+        }
+
+        return duplicateNumbers;
+    }
+
+    private static void swap(int[] nums, int i, int j) {
+        int tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
     }
 
 }

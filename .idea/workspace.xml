@@ -4,22 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="test 2 commit">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_55_PermutationInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/classworks/P_56_StringAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_67_BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_68_LongestNiceSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p4_cyclicsort/classworks/P_57_CyclicSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p4_cyclicsort/classworks/P_58_FindTheMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p4_cyclicsort/classworks/P_59_FindTheDuplicateNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p4_cyclicsort/classworks/P_60_FindCorruptPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p4_cyclicsort/classworks/P_61_FindSmallestPositiveMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p4_cyclicsort/classworks/P_62_FirstDuplicateValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p5_sorting/classworks/P_63_BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p5_sorting/classworks/P_64_InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p5_sorting/classworks/P_65_SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p5_sorting/classworks/P_66_MergeSort.java" afterDir="false" />
+    <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="cw &amp; hw">
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_00_StackBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_71_ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_72_MinMaxStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_73_EvaluateReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_74_PreviousGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_75_NextSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_76_FindSpanOfTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_77_DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_78_CarFleet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_84_NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_85_PreviousSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_86_ComparingStringsContainingBackspaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_87_PreviousGreaterElementCyclicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_79_BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_80_OrderAgnosticBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_81_CeilingOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_82_NextLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_83_MinDifferenceElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/homeworks/P_88_FloorOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/homeworks/P_89_NumberRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/homeworks/P_90_BitonicArrayMaximum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_67_BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_67_BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_68_LongestNiceSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_68_LongestNiceSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,81 +66,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.P_01_ContainsDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_07_ArrayOfProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_16_NonConstructibleChange.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.P_17_SpiralTraverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_18_LongestPeak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_19_LargestRange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_20_ZeroSumSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_21_SunsetViews.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_22_MinRewards.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_23_LargestNumberInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_24_WordCountEngine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_30_TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_31_RemoveDuplicates.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.P_32_SquaringSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_33_ThreeSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.P_34_UniqueTripletSumToZero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_36_TripletsCountWithSmallerSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_37_SubarraysWithProductLessThanTarget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_44_MoveElementToEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_49_AverageOfSubarrayOfSizeK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_50_FindMaxSumSubArrayOfSizeK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_51_SmallestSubArrayWithGreaterSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_52_LongestSubstrWithMaxKDistinctChars.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_53_FruitsIntoBaskets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_54_LongestSubstringWithDistinctChars.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_55_PermutationInAString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_56_StringAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_57_CyclicSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_58_FindTheMissingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_62_FirstDuplicateValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_63_BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_64_InsertionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_65_SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.P_66_MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tpushparaj/Repo/MyOwn/dsa-journey/src/com/dsa/problems/p5_sorting/classworks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.P_00_StackBasics.executor": "Run",
+    "Application.P_01_ContainsDuplicate.executor": "Run",
+    "Application.P_07_ArrayOfProducts.executor": "Run",
+    "Application.P_16_NonConstructibleChange.executor": "Debug",
+    "Application.P_17_SpiralTraverse.executor": "Run",
+    "Application.P_18_LongestPeak.executor": "Run",
+    "Application.P_19_LargestRange.executor": "Run",
+    "Application.P_20_ZeroSumSubarray.executor": "Run",
+    "Application.P_21_SunsetViews.executor": "Run",
+    "Application.P_22_MinRewards.executor": "Run",
+    "Application.P_23_LargestNumberInArray.executor": "Run",
+    "Application.P_24_WordCountEngine.executor": "Run",
+    "Application.P_30_TwoSum.executor": "Run",
+    "Application.P_31_RemoveDuplicates.executor": "Debug",
+    "Application.P_32_SquaringSortedArray.executor": "Run",
+    "Application.P_33_ThreeSum.executor": "Debug",
+    "Application.P_34_UniqueTripletSumToZero.executor": "Run",
+    "Application.P_36_TripletsCountWithSmallerSum.executor": "Run",
+    "Application.P_37_SubarraysWithProductLessThanTarget.executor": "Run",
+    "Application.P_44_MoveElementToEnd.executor": "Run",
+    "Application.P_49_AverageOfSubarrayOfSizeK.executor": "Run",
+    "Application.P_50_FindMaxSumSubArrayOfSizeK.executor": "Run",
+    "Application.P_51_SmallestSubArrayWithGreaterSum.executor": "Run",
+    "Application.P_52_LongestSubstrWithMaxKDistinctChars.executor": "Run",
+    "Application.P_53_FruitsIntoBaskets.executor": "Run",
+    "Application.P_54_LongestSubstringWithDistinctChars.executor": "Run",
+    "Application.P_55_PermutationInAString.executor": "Run",
+    "Application.P_56_StringAnagrams.executor": "Run",
+    "Application.P_57_CyclicSort.executor": "Run",
+    "Application.P_58_FindTheMissingNumber.executor": "Run",
+    "Application.P_62_FirstDuplicateValue.executor": "Run",
+    "Application.P_63_BubbleSort.executor": "Run",
+    "Application.P_64_InsertionSort.executor": "Run",
+    "Application.P_65_SelectionSort.executor": "Run",
+    "Application.P_66_MergeSort.executor": "Run",
+    "Application.P_71_ValidParentheses.executor": "Run",
+    "Application.P_72_MinMaxStack.executor": "Run",
+    "Application.P_73_EvaluateReversePolishNotation.executor": "Run",
+    "Application.P_74_PreviousGreaterElement.executor": "Run",
+    "Application.P_75_NextSmallerElement.executor": "Run",
+    "Application.P_76_FindSpanOfTemperature.executor": "Run",
+    "Application.P_77_DailyTemperatures.executor": "Run",
+    "Application.P_78_CarFleet.executor": "Run",
+    "Application.P_79_BinarySearch.executor": "Run",
+    "Application.P_80_OrderAgnosticBinarySearch.executor": "Run",
+    "Application.P_81_CeilingOfNumber.executor": "Run",
+    "Application.P_82_NextLetter.executor": "Run",
+    "Application.P_83_MinDifferenceElement.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tpushparaj/Repo/MyOwn/dsa-journey/src/com/dsa/problems/p6_stack/classworks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tpushparaj\Repo\MyOwn\dsa-journey\src\com\dsa\problems\p6_stack\classworks" />
       <recent name="C:\Users\tpushparaj\Repo\MyOwn\dsa-journey\src\com\dsa\problems\p5_sorting\classworks" />
       <recent name="C:\Users\tpushparaj\Repo\MyOwn\dsa-journey\src\com\dsa\problems\p4_cyclicsort\classworks" />
       <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\p3_slidingwindow\classworks" />
       <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\p3_slidingwindow" />
-      <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\arraysandhashing" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dsa.problems.p3_slidingwindow.homeworks" />
-      <recent name="com.dsa.problems.p4_cyclicsort.classworks" />
-      <recent name="com.dsa.problems.p3_slidingwindow.classworks" />
-      <recent name="com.dsa.problems.p3_slidingwindow" />
-      <recent name="com.dsa.problems.p2_twopointers.classworks" />
+      <recent name="com.dsa.problems.p7_binarysearch.homeworks" />
+      <recent name="com.dsa.problems.p7_binarysearch.classworks" />
+      <recent name="com.dsa.problems.p6_stack.homeworks" />
+      <recent name="com.dsa.problems.p6_stack.classworks" />
+      <recent name="com.dsa.problems.p4_cyclicsort.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_66_MergeSort">
-    <configuration name="P_62_FirstDuplicateValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p4_cyclicsort.classworks.P_62_FirstDuplicateValue" />
+  <component name="RunManager" selected="Application.P_83_MinDifferenceElement">
+    <configuration name="P_79_BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_79_BinarySearch" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p4_cyclicsort.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_63_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p5_sorting.classworks.P_63_BubbleSort" />
+    <configuration name="P_80_OrderAgnosticBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_80_OrderAgnosticBinarySearch" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p5_sorting.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_64_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p5_sorting.classworks.P_64_InsertionSort" />
+    <configuration name="P_81_CeilingOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_81_CeilingOfNumber" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p5_sorting.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_65_SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p5_sorting.classworks.P_65_SelectionSort" />
+    <configuration name="P_82_NextLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_82_NextLetter" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p5_sorting.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_66_MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p5_sorting.classworks.P_66_MergeSort" />
+    <configuration name="P_83_MinDifferenceElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_83_MinDifferenceElement" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p5_sorting.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P_66_MergeSort" />
-        <item itemvalue="Application.P_65_SelectionSort" />
-        <item itemvalue="Application.P_64_InsertionSort" />
-        <item itemvalue="Application.P_63_BubbleSort" />
-        <item itemvalue="Application.P_62_FirstDuplicateValue" />
+        <item itemvalue="Application.P_83_MinDifferenceElement" />
+        <item itemvalue="Application.P_82_NextLetter" />
+        <item itemvalue="Application.P_81_CeilingOfNumber" />
+        <item itemvalue="Application.P_80_OrderAgnosticBinarySearch" />
+        <item itemvalue="Application.P_79_BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +244,9 @@
       <workItem from="1712385065204" duration="1868000" />
       <workItem from="1712387413712" duration="12601000" />
       <workItem from="1712441843111" duration="26050000" />
-      <workItem from="1712664086462" duration="693000" />
+      <workItem from="1712664086462" duration="1014000" />
+      <workItem from="1712990040216" duration="15642000" />
+      <workItem from="1713045613113" duration="17573000" />
     </task>
     <task id="LOCAL-00001" summary="test ocmmit">
       <option name="closed" value="true" />
@@ -239,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712353963197</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cw &amp; hw">
+      <option name="closed" value="true" />
+      <created>1712665086995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712665086995</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +282,8 @@
     <MESSAGE value="test ocmmit" />
     <MESSAGE value="test ocmmitff" />
     <MESSAGE value="test 2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2 commit" />
+    <MESSAGE value="cw &amp; hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="cw &amp; hw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

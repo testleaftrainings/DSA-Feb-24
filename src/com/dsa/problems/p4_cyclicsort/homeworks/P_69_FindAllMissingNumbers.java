@@ -32,7 +32,37 @@ public class P_69_FindAllMissingNumbers {
 
 
     public static List<Integer> findNumbers(int[] nums) {
-        return new ArrayList<>();
+
+        List<Integer> result = new ArrayList<>();
+
+        // cycle sort
+        int i = 0;
+
+        while(i < nums.length) { // --------> O(n)T
+
+            int currNum = nums[i];
+            int targetIndex = currNum - 1;
+
+            if(nums[targetIndex] == currNum) i++;
+            else swap(nums, i, targetIndex);
+        }
+
+        for (int j = 0; j < nums.length; j++) { // -----> O(n)T
+            int expectedNum = j+1;
+            int currNum = nums[j];
+
+            if(currNum != expectedNum) {
+                result.add(expectedNum);
+            }
+        }
+
+        return result;
+    }
+
+    private static void swap(int[] nums, int i, int j) {
+        int tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
     }
 
 

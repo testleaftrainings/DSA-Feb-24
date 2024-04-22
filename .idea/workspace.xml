@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e04936-e14b-45e2-b472-94f9a853e762" name="Changes" comment="cw &amp; hw">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_00_StackBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_71_ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_72_MinMaxStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_73_EvaluateReversePolishNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_74_PreviousGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_75_NextSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_76_FindSpanOfTemperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_77_DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/classworks/P_78_CarFleet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_84_NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_85_PreviousSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_86_ComparingStringsContainingBackspaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p6_stack/homeworks/P_87_PreviousGreaterElementCyclicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_79_BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_80_OrderAgnosticBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_81_CeilingOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_82_NextLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/classworks/P_83_MinDifferenceElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/homeworks/P_88_FloorOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/homeworks/P_89_NumberRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p7_binarysearch/homeworks/P_90_BitonicArrayMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_91_MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_92_InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_93_IntervalsIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_94_ConflictingAppointments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_95_ListAllConflictingAppointments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_96_EmployeeFreeTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_97_NonOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/problems/p8_mergeintervals/classworks/P_98_DivideIntervalsIntoMinGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_67_BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_67_BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_68_LongestNiceSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/problems/p3_slidingwindow/homeworks/P_68_LongestNiceSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +101,13 @@
     "Application.P_81_CeilingOfNumber.executor": "Run",
     "Application.P_82_NextLetter.executor": "Run",
     "Application.P_83_MinDifferenceElement.executor": "Run",
+    "Application.P_91_MergeIntervals.executor": "Run",
+    "Application.P_92_InsertInterval.executor": "Run",
+    "Application.P_93_IntervalsIntersection.executor": "Run",
+    "Application.P_94_ConflictingAppointments.executor": "Run",
+    "Application.P_95_ListAllConflictingAppointments.executor": "Run",
+    "Application.P_96_EmployeeFreeTime.executor": "Run",
+    "Application.P_97_NonOverlappingIntervals.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -141,20 +133,20 @@
       <recent name="C:\Repo\MyOwnRepo\dsa-journey\src\com\dsa\problems\p3_slidingwindow" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dsa.problems.p8_mergeintervals.classworks" />
       <recent name="com.dsa.problems.p7_binarysearch.homeworks" />
       <recent name="com.dsa.problems.p7_binarysearch.classworks" />
       <recent name="com.dsa.problems.p6_stack.homeworks" />
       <recent name="com.dsa.problems.p6_stack.classworks" />
-      <recent name="com.dsa.problems.p4_cyclicsort.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_83_MinDifferenceElement">
-    <configuration name="P_79_BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_79_BinarySearch" />
+  <component name="RunManager" selected="Application.P_97_NonOverlappingIntervals">
+    <configuration name="P_93_IntervalsIntersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p8_mergeintervals.classworks.P_93_IntervalsIntersection" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p8_mergeintervals.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_80_OrderAgnosticBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_80_OrderAgnosticBinarySearch" />
+    <configuration name="P_94_ConflictingAppointments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p8_mergeintervals.classworks.P_94_ConflictingAppointments" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p8_mergeintervals.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_81_CeilingOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_81_CeilingOfNumber" />
+    <configuration name="P_95_ListAllConflictingAppointments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p8_mergeintervals.classworks.P_95_ListAllConflictingAppointments" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p8_mergeintervals.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_82_NextLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_82_NextLetter" />
+    <configuration name="P_96_EmployeeFreeTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p8_mergeintervals.classworks.P_96_EmployeeFreeTime" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p8_mergeintervals.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_83_MinDifferenceElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p7_binarysearch.classworks.P_83_MinDifferenceElement" />
+    <configuration name="P_97_NonOverlappingIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.problems.p8_mergeintervals.classworks.P_97_NonOverlappingIntervals" />
       <module name="dsa-journey" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.problems.p7_binarysearch.classworks.*" />
+          <option name="PATTERN" value="com.dsa.problems.p8_mergeintervals.classworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P_83_MinDifferenceElement" />
-        <item itemvalue="Application.P_82_NextLetter" />
-        <item itemvalue="Application.P_81_CeilingOfNumber" />
-        <item itemvalue="Application.P_80_OrderAgnosticBinarySearch" />
-        <item itemvalue="Application.P_79_BinarySearch" />
+        <item itemvalue="Application.P_97_NonOverlappingIntervals" />
+        <item itemvalue="Application.P_96_EmployeeFreeTime" />
+        <item itemvalue="Application.P_95_ListAllConflictingAppointments" />
+        <item itemvalue="Application.P_94_ConflictingAppointments" />
+        <item itemvalue="Application.P_93_IntervalsIntersection" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +239,7 @@
       <workItem from="1712664086462" duration="1014000" />
       <workItem from="1712990040216" duration="15642000" />
       <workItem from="1713045613113" duration="17573000" />
+      <workItem from="1713594243381" duration="30962000" />
     </task>
     <task id="LOCAL-00001" summary="test ocmmit">
       <option name="closed" value="true" />
@@ -324,5 +317,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dsa_journey$P_94_ConflictingAppointments.ic" NAME="P_94_ConflictingAppointments Coverage Results" MODIFIED="1713611488674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.dsa.problems.p8_mergeintervals.classworks.*</FILTER>
+    </SUITE>
   </component>
 </project>
